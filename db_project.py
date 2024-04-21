@@ -1,13 +1,14 @@
 # Correct import of required libraries
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from scipy.stats import linregress
-import numpy as np
 from datetime import datetime
 
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import seaborn as sns
+from scipy.stats import linregress
+
 # Load the dataset
-file_path = '/Users/idohaber/Desktop/Projects/08_climate_db/climate_hist.csv'  
+file_path = '/Users/idohaber/Desktop/Git-Projects/08_climate_db/climate_hist.csv'  
 df = pd.read_csv(file_path)
 
 print(df)
